@@ -2,13 +2,20 @@
 
 .container {
     font-family: "Noto Sans", sans-serif;
-    letter-spacing: 2px;
-    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-weight: 700;
     padding-left: 0;
     padding-right: 0;
     margin-right: 0;
     margin-left: 0;
 }
+
+/*--------------------------------Navbar*/
+
+.navbar {
+    background-color: black;
+}
+
 
 /*--------------------------------Buttons*/
 
@@ -31,5 +38,15 @@ btn-darkred:active:focus {
     background-color:#8a1a1a;
     border-color: #8a1a1a;
     color: white;
+}
 
+.callout-container {
+    height: 150vh;
 
+    background: url("../images/woman.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: grayscale(100%);
+}

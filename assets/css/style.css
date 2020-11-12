@@ -9,3 +9,27 @@
     margin-right: 0;
     margin-left: 0;
 }
+
+/*--------------------------------Buttons*/
+
+.btn-s {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 140px;
+}
+
+.btn-darkred {
+    color: white;
+    background-color: #ab3131;
+    border-color: #ab3131;
+}
+
+.btn-darkred:hover,
+.btn-darkred:active,
+.btn-darkred:focus,
+btn-darkred:active:focus {
+    background-color:#8a1a1a;
+    border-color: #8a1a1a;
+    color: white;
+
+

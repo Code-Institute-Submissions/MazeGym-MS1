@@ -1,1 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+
+.container {
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}

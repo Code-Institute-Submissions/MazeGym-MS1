@@ -50,7 +50,10 @@ a {
 
 .jumbotron {
     background-color: transparent;
-    
+}
+
+.callout-container p {
+    color:#ffffff;
 }
 /*--------------------------------About*/
 
@@ -59,7 +62,7 @@ a {
 }
 
 .about-container .lead {
-    color: rgb(70 62 62);
+    color: rgb(68 67 67);
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 500;
@@ -73,11 +76,43 @@ a {
 /*--------------------------------Classes*/
 
 .classes-container {
+    background-color: #585656;
+    padding-top: 5%;
+    padding-bottom: 5%;
     grid-auto-flow: column;
-    
-    
     width: 100%;
+}
+
+.classes-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.card-deck {
+    margin-bottom: 10px;
+}
+
+/*--------------------------------Gallery*/
+
+.gallery-container {
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/floors.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
     
+.gallery-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 /*--------------------------------Buttons*/
@@ -111,79 +146,17 @@ btn-darkred:active:focus {
 
 
 
-    
-    
+
     
 
-
-.classes-container {
-    background-color: #585656;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
 
 .card {
     padding: 0;
-    
-    
 }
 
-.classes-container h1 {
-    
-    color: white;
-    text-align: center;
-    
-    font-size: 5rem;
-    font-weight: 700;
-}
 
 
 .card-header h4 {
     font-weight: bold;
 }
-
-.second {
-    padding-top: 50px;
-}
-
-.gallery {
-    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/floors.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-    
-
-
-.gallery h1 {
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 700;
-    padding-top: 5%;
-}
-
-.carousel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    align-content: center;
-}
-
-.video {
-    background-color: black;
-    
-}
-
-
-
-
-
-
-
-
-
-
 

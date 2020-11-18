@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
-.container {
-    font-family: "Lora", sans-serif;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-size:20px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 
 h1,
 h2,
@@ -19,25 +8,77 @@ h4 {
     font-family: "Lora", sans-serif;
 }
 
-p {
+p,
+a {
     font-family: "OpenSans", sans-serif;
 }
-/*--------------------------------Navbar*/
 
-.navbar {
+ /*--------------------------------Navbar*/
+
+.navbar-container {
+    padding-left: 0;
+    padding-right: 0;
     background-color: black;
-    margin: 0;
-    
 }
 
 .navbar-brand {
-    
+    font-family: "Lora", sans-serif;
     font-size: 30px;
     padding-left: 10px;
     font-weight: bold;
-    
 }
 
+/*--------------------------------Callout*/
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/woman.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-header {
+    color:white;
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    text-shadow: 2px 2px#6d5d5d; 
+}
+
+.jumbotron {
+    background-color: transparent;
+    
+}
+/*--------------------------------About*/
+
+.about-container {
+    background-color: #ecd3d3;
+}
+
+.about-container .lead {
+    color: rgb(70 62 62);
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.about-container img {
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------Classes*/
+
+.classes-container {
+    grid-auto-flow: column;
+    
+    
+    width: 100%;
+    
+}
 
 /*--------------------------------Buttons*/
 
@@ -62,65 +103,23 @@ btn-darkred:active:focus {
     color: white;
 }
 
-.callout-container {
-    height: 93vh;
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
 
-    background: url("../images/woman.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
     
     
-}
-
-.jumbotron {
-    background-color: transparent;
-    margin: 0;
-}
-
-.jumbotron-h {
-    color:white;
-    font-family: "Lora", sans-serif;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 8px;
-    text-shadow: 2px 2px#6d5d5d;
     
-}
 
-.lead {
-    color: rgb(250, 244, 244);
-    font-size: 25px;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px #6d5d5d;
-}
-
-.about {
-    height: 100vh;
-    background: url("../images/weights.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 150px;
-}
-
-.about h4 {
-    color: #ffffff;
-}
-
-.classes {
-    background-color: black;
-    grid-auto-flow: column;
-    
-}
 
 .classes-container {
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-color: #585656;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .card {
@@ -129,11 +128,11 @@ btn-darkred:active:focus {
     
 }
 
-.classes h1 {
+.classes-container h1 {
     
     color: white;
     text-align: center;
-    padding-top: 10%;
+    
     font-size: 5rem;
     font-weight: 700;
 }
@@ -148,14 +147,14 @@ btn-darkred:active:focus {
 }
 
 .gallery {
-    height: 100vh;
-    background: url("../images/floors.jpg") no-repeat center center fixed;
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/floors.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
 }
+    
+
 
 .gallery h1 {
     color: white;
@@ -175,8 +174,10 @@ btn-darkred:active:focus {
 
 .video {
     background-color: black;
-    height: 100vh;
+    
 }
+
+
 
 
 

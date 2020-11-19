@@ -32,7 +32,7 @@ a {
 
 .callout-container {
     height: 100vh;
-    background: url("../images/woman.jpg") no-repeat center center fixed;
+    background: url("../images/bg-callout.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -97,7 +97,7 @@ a {
 /*--------------------------------Gallery*/
 
 .gallery-container {
-    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/floors.jpg);
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/bg-gallery.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

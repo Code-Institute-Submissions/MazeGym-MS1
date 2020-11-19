@@ -159,3 +159,43 @@ btn-darkred:active:focus {
     font-weight: bold;
 }
 
+.footer-container {
+    background-color: black;
+}
+
+.hours {
+    font-family: "Lora", sans-serif;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contact {
+    font-family: "Lora", sans-serif;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ .contact i {
+    font-size: 2.0em;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+}
+
+.social-list li {
+    margin: 0.5rem;
+    font-size: 2.25rem;
+}
+
+.social-container {
+    background-color: black;
+}

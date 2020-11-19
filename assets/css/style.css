@@ -117,16 +117,15 @@ a {
 
 /*--------------------------------Buttons*/
 
-.btn-s {
-    font-weight: bold;
-    border-radius: 5px;
-    width: 140px;
-}
+
 
 .btn-darkred {
     color: white;
     background-color: #861b3e;
     border-color: #861b3e;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 140px;
 }
 
 .btn-darkred:hover,

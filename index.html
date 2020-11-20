@@ -21,13 +21,13 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#about">About</a>
+                                    <a class="nav-link" href="">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#classes">Classes</a>
+                                    <a class="nav-link" href="#classes-tag">Classes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gallery</a>
+                                    <a class="nav-link" href="#gallery-tag">Gallery</a>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-darkred" data-toggle="modal" data-target="#exampleModal">
@@ -89,7 +89,7 @@
             </div>
         </div>
     </section>
-    <section class="about-container">
+    <section class="about-container" id="about-tag">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -115,13 +115,14 @@
             </div>
         </div>
     </section>
-    <section class="classes-container">
+    <section class="classes-container" id="classes-tag">
+        <div class="classes-header">
+            <h1 class="display-4 text-center">Classes</h1>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1>Classes</h1>
                     <div class="card-deck">
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Free Trial</h4>
                             </div>
@@ -130,11 +131,10 @@
                                 <p class="card-text">First class is for free at MazeGym</p>
                                 <button type="button" class="btn btn-darkred" data-toggle="modal" data-target="#exampleModal">
                                 Sign In
-                                </button>
-                                    
+                                </button>         
                             </div>
                         </div>
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Pay per once</h4>
                             </div>
@@ -144,7 +144,7 @@
                                 <a href="#" class="btn btn-darkred">Buy</a>
                             </div>
                         </div>
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Private Training</h4>
                             </div>
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                     <div class="card-deck">
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Training in Group</h4>
                             </div>
@@ -167,7 +167,7 @@
 
                             </div>
                         </div>
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Mom & Baby</h4>
                             </div>
@@ -177,7 +177,7 @@
                                 <a href="#" class="btn btn-darkred">Buy</a>
                             </div>
                         </div>
-                        <div class="card text-center col-sm-4">
+                        <div class="card text-center col-md">
                             <div class="card-header">
                                 <h4>Under 18 / Unlimited</h4>
                             </div>
@@ -190,9 +190,17 @@
                     </div>
                 </div>
             </div>
+        <div class="schedule-container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn btn-darkred" href="assets/schedule/schedule.pdf" target="_blank" role="button">Schedule</a>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
-    <section class="gallery-container">
+    <section class="gallery-container" id="gallery-tag">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -238,7 +246,7 @@
         </div>
     </section>
     <section class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.3036918992175!2d-80.80658245667121!3d35.198903672204594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854200bf9d45e01%3A0x1ed1b6a3f1386e3f!2s3411%20Oak%20Arbor%20Ln%2C%20Charlotte%2C%20NC%2028205%2C%20Jungtin%C4%97s%20Valstijos!5e0!3m2!1slt!2sie!4v1605802113572!5m2!1slt!2sie" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.3036918992175!2d-80.80658245667121!3d35.198903672204594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854200bf9d45e01%3A0x1ed1b6a3f1386e3f!2s3411%20Oak%20Arbor%20Ln%2C%20Charlotte%2C%20NC%2028205%2C%20Jungtin%C4%97s%20Valstijos!5e0!3m2!1slt!2sie!4v1605802113572!5m2!1slt!2sie" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
     <footer>
         <section class="footer-container">
@@ -250,13 +258,13 @@
                     <div class="hours col-md-4">
                         <table>
                             <h5>Opening Hours</h5>
-                            <tr><th>Monday</th><td>9am - 11pm</td></tr>
-                            <tr><th>Tuesday</th><td>9am - 11pm</td></tr>
-                            <tr><th>Wednesday</th><td>9am - 11pm</td></tr>
-                            <tr><th>Thursday</th><td>9am - 11pm</td></tr>
-                            <tr><th>Friday</th><td>9am - 12am</td></tr>
-                            <tr><th>Saturday</th><td>9am - 12am</td></tr>
-                            <tr><th>Sunday</th><td>9am - 12am</td></tr>
+                            <tr><th>Monday</th><td>8am - 11pm</td></tr>
+                            <tr><th>Tuesday</th><td>8am - 11pm</td></tr>
+                            <tr><th>Wednesday</th><td>8am - 11pm</td></tr>
+                            <tr><th>Thursday</th><td>8am - 11pm</td></tr>
+                            <tr><th>Friday</th><td>8am - 12am</td></tr>
+                            <tr><th>Saturday</th><td>8am - 12am</td></tr>
+                            <tr><th>Sunday</th><td>8am - 12am</td></tr>
                         </table>
                     </div>
                     <div class="contact col-md-4">
@@ -274,15 +282,14 @@
             <div class="row">
                 <div class="col-12">
                     <ul class="social-list">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>    
             </div>
         </section>
-
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

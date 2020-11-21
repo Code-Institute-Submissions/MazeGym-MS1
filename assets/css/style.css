@@ -14,7 +14,9 @@ a {
 }
 
  /*--------------------------------Navbar*/
-
+body {
+    overflow-x: hidden; 
+}
 .navbar-container {
     padding-left: 0;
     padding-right: 0;
@@ -175,6 +177,7 @@ ul {
     font-weight: bold;
     border-radius: 5px;
     width: 140px;
+    font-family: "Lora", sans-serif;
 }
 
 .btn-darkred:hover,
@@ -200,6 +203,9 @@ btn-darkred:active:focus {
 
 .card {
     padding: 0;
+    min-width: 300px;
+    
+    
 }
 
 
@@ -209,6 +215,36 @@ btn-darkred:active:focus {
 }
 
 
+.gallery-container iframe {
+    width: 100%;
+    border: 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: 0;
+}
 
 
+@media (max-width: 768px) {
+    .card {
+        min-width: 280px;
+        margin-bottom: 20px;
+    }
+}
 
+
+@media (max-width: 922px) {
+    .gallery-container .carousel iframe {
+        margin-top: 20px;
+        height: 400px;
+    }
+}
+
+.footer-container h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: 1;
+}

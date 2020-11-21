@@ -248,3 +248,9 @@ btn-darkred:active:focus {
     margin-top: 30px;
     line-height: 1;
 }
+
+
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+}

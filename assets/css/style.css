@@ -123,6 +123,7 @@ body {
 
 .footer-container {
     background-color: black;
+    padding-top: 30px;
 }
 
 .hours {
@@ -228,7 +229,7 @@ btn-darkred:active:focus {
 
 @media (max-width: 768px) {
     .card {
-        min-width: 280px;
+        min-width: 220px;
         margin-bottom: 20px;
     }
 }
@@ -261,4 +262,10 @@ btn-darkred:active:focus {
 
 .social-container li a i:hover {
     color: #8f8f8f;
+}
+
+.footer-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }

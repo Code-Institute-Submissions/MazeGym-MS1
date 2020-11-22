@@ -254,3 +254,11 @@ btn-darkred:active:focus {
     margin-left: auto; 
     margin-right: auto;
 }
+
+.social-container li a i {
+    color: #ffffff;
+}
+
+.social-container li a i:hover {
+    color: #8f8f8f;
+}

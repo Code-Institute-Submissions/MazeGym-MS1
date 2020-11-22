@@ -143,6 +143,10 @@ body {
     border: 0;
 }
 
+.map-container {
+    line-height: 0;
+}
+
 /*--------------------------------Footer*/
 
 
@@ -263,5 +267,12 @@ btn-darkred:active:focus {
     .gallery-container .carousel iframe {
         margin-top: 20px;
         height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-container iframe {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }

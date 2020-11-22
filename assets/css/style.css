@@ -47,7 +47,7 @@ body {
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 8px;
-    text-shadow: 2px 2px#6d5d5d; 
+    text-shadow: 2px 2px #87898c; 
 }
 
 .jumbotron {
@@ -73,7 +73,11 @@ body {
 .about-container img {
     border-radius: 5%;
     margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
+
 
 /*--------------------------------Classes*/
 
@@ -81,21 +85,30 @@ body {
     background-color: #585656;
     padding-top: 5%;
     padding-bottom: 5%;
-    
     width: 100%;
 }
 
 .classes-container h1 {
     color: white;
     text-align: center;
-    font-size: 5rem;
+    font-size: 75px;
     font-weight: 700;
+    padding: 0;
 }
 
 .card-deck {
     margin-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0;
+}
+
+.card {
+    padding: 0;
+    min-width: 250px;
+    border-radius: 2%;
+}
+
+.card-header h4 {
+    font-weight: bold;
 }
 
 /*--------------------------------Gallery*/
@@ -119,11 +132,30 @@ body {
     padding-bottom: 20px;
 }
 
+.gallery-container iframe {
+    width: 100%;
+    border: 0;
+}
+/*--------------------------------Map*/
+
+.map-container iframe {
+    width: 100%;
+    border: 0;
+}
+
 /*--------------------------------Footer*/
+
+
 
 .footer-container {
     background-color: black;
     padding-top: 30px;
+}
+
+.footer-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 .hours {
@@ -131,6 +163,11 @@ body {
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.hours table,
+h5 {
+    font-weight: bold;
 }
 
 ul {
@@ -144,8 +181,20 @@ ul {
     padding-bottom: 30px;
 }
 
+.contact h5, li {
+    font-weight: bold;
+}
+
  .contact a i {
     font-size: 2.0em;
+}
+
+.social-container {
+    background-color: black;
+}
+
+.schedule-container {
+    text-align: center;
 }
 
 .social-list {
@@ -159,17 +208,15 @@ ul {
     font-size: 2.25rem;
 }
 
-.social-container {
-    background-color: black;
+.social-container li a i {
+    color: #ffffff;
 }
 
-.schedule-container {
-    text-align: center;
+.social-container li a i:hover {
+    color: #8f8f8f;
 }
 
 /*--------------------------------Buttons*/
-
-
 
 .btn-darkred {
     color: white;
@@ -190,42 +237,20 @@ btn-darkred:active:focus {
     color: white;
 }
 
+/*--------------------------------*/
+
 .display-4 {
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
-
-
-
-    
-
-
-.card {
-    padding: 0;
-    min-width: 300px;
-    
-    
+.center {
+    margin-left: auto; 
+    margin-right: auto;
 }
 
-
-
-.card-header h4 {
-    font-weight: bold;
-}
-
-
-.gallery-container iframe {
-    width: 100%;
-    border: 0;
-}
-
-.map-container iframe {
-    width: 100%;
-    border: 0;
-}
-
+/*--------------------------------Media*/
 
 @media (max-width: 768px) {
     .card {
@@ -234,38 +259,9 @@ btn-darkred:active:focus {
     }
 }
 
-
 @media (max-width: 922px) {
     .gallery-container .carousel iframe {
         margin-top: 20px;
         height: 400px;
     }
-}
-
-.footer-container h1 {
-    color: white;
-    font-size: 5rem;
-    font-weight: 700;
-    margin-top: 30px;
-    line-height: 1;
-}
-
-
-.center {
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-.social-container li a i {
-    color: #ffffff;
-}
-
-.social-container li a i:hover {
-    color: #8f8f8f;
-}
-
-.footer-container img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
 }

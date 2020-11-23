@@ -33,7 +33,7 @@ There is 5 key seections on this website:
 
 _Home_
 
-Background pictures shows strong and  confident woman, what motivates people.Home page includes website logo in navigation bar. Sign In form easy to find in Navigation Bar. New member able to Sign In and get first class for free. There is links to about, classes and gallery sections. 
+Background picture shows strong and confident person, it motivates people. Home page includes website logo in navigation bar. Sign In form easy to find in Navigation Bar. New member able to Sign In and get first class for free. There is links to about, classes and gallery sections. 
 
 _About_
 
@@ -54,7 +54,7 @@ Added map to see gym's location. As well added opening times, address, email, an
 ## **Design** ##
 ***
 #### Colors ####
- - Main colors used in Maze Gym website are wine red, black and red.
+ - Main colors used in Maze Gym website are wine red, black and grey.
 
  #### Typography ####
 
@@ -101,7 +101,7 @@ W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
 - [Video](https://www.youtube.com)
 
 
-
+A certain amount of the code has been copied from ( the Rosie Resumet and the WhiskeyDrop project).
 
     
 

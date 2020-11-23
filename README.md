@@ -77,6 +77,8 @@ Added map to see gym's location. As well added opening times, address, email, an
 
 ## **Testing** ##
 ***
+W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
+
 - Navigation in navbar smooth. Links to sections work.
 - Sign In button works. All form's fields, buttons works.
 - Buttons functions work.
@@ -86,8 +88,19 @@ Added map to see gym's location. As well added opening times, address, email, an
 - Website tested on Edge, Google Chrome, Safari, Opera.
 - Map responds
 
-## **** ##
+## **Credits** ##
 ***
+
+
+- [Bootstrap 4](https://getbootstrap.com/): library used through all project, to make site responsive by using Bootstrap Grid System.
+- [Pricing table](https://getbootstrap.com/docs/4.5/examples/pricing/) piece of the code used.
+- [Pexels.com](https://www.pexels.com/) Images
+- [README.md sample](https://github.com/Code-Institute-Solutions/SampleREADME)
+- [Schedule.pdf](https://www.printablee.com/) template
+- [Logo](https://www.namecheap.com/)
+- [Video](https://www.youtube.com)
+
+
 
 
     

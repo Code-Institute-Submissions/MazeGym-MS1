@@ -88,9 +88,15 @@ W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
 - Website tested on Edge, Google Chrome, Safari, Opera.
 - Map responds
 
+## **Deployment** ##
+
+Those steps were taking in order to deploy my page from GitHub repository:
+1. Log in to GitHub and locate the [ErnestaMajute/MazeGym-MS1](https://github.com/ErnestaMajute/MazeGym-MS1)
+2. Click on _settings_
+3. Under Source section click on dropdown menu and select _Master Branch_ as your GitHub pages publishing source.
+4. Select _save_.
+
 ## **Credits** ##
-
-
 
 - [Bootstrap 4](https://getbootstrap.com/): library used through all project, to make site responsive by using Bootstrap Grid System.
 - [Pricing table](https://getbootstrap.com/docs/4.5/examples/pricing/) piece of the code used.
@@ -102,6 +108,14 @@ W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
 
 
 A certain amount of the code has been copied from ( the Rosie Resumet and the WhiskeyDrop project).
+
+All content was written by myself.
+
+## **Acknowledgements** ##
+Special Thank You to my mentor Reuben Ferrante for all all help and patience.
+
+
+
 
     
 

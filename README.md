@@ -8,7 +8,7 @@
 This is the marketing website for Maze Gym. It is designed to all range of devices. Created for members and potential customers. 
 
 ## **UX** ##
-***
+
 
 #### First Time Visitor Goals ####
 
@@ -22,7 +22,7 @@ This is the marketing website for Maze Gym. It is designed to all range of devic
  - Easy to access schedule
 
 ## **Features** ##
-***
+
 There is 5 key seections on this website:
 
  - Home 
@@ -52,7 +52,7 @@ _Location and contact information_
 Added map to see gym's location. As well added opening times, address, email, and phone number. on the bottom social links to gym's social media.
 
 ## **Design** ##
-***
+
 #### Colors ####
  - Main colors used in Maze Gym website are wine red, black and grey.
 
@@ -65,7 +65,7 @@ Added map to see gym's location. As well added opening times, address, email, an
  - Home page section image covers all section. Chosen to catch attention and create powerful impression.
 
 ## **Technologies Used** ##
-***
+
 - [HTML5](https://lt.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
@@ -76,7 +76,7 @@ Added map to see gym's location. As well added opening times, address, email, an
 
 
 ## **Testing** ##
-***
+
 W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
 
 - Navigation in navbar smooth. Links to sections work.
@@ -89,7 +89,7 @@ W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
 - Map responds
 
 ## **Credits** ##
-***
+
 
 
 - [Bootstrap 4](https://getbootstrap.com/): library used through all project, to make site responsive by using Bootstrap Grid System.

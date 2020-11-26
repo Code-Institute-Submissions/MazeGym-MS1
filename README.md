@@ -8,19 +8,31 @@
 This is the marketing website for Maze Gym. It is designed for all range of devices. Created for members and potential customers. Website features are home page, about, classes, gallery sections and footer with opening hours ant contact info. Website's goal is to provide information for potential customers and current members. 
 Site is easy no navigate, sections visualy separated.
 
+#### Business Goals: ####
+- Increase memberships
+- Easy to access schedule
+- Make brand memorable
+
+#### Customer goals of this website: ####
+- Clear information about equipment, classes options and flexible schedule
+- Easy Sign In process
+- Prices
+- Location
+
 ## **UX** ##
 
+#### Visitors searching for: ####
+- Membership prices
+- Gym which provides good equipment
+- Schedule
 
-#### First Time Visitor Goals ####
+#### This Website provides information better: ####
+- Because other websites are hard to navigate, hard to focus because design too colorful
+- Other websites doesn't provide the most important information
 
-- As a first Time Visitor, I want to learn more about this main site and gym.
-- As a first Time Visitor, I want to easily find information about classes and price.
-- As a fisrt Time Visitor, I am interested to see other people feedbacks by locating gym's social media links.
-- As a first Time Visitor, I am interested to see where gym is located.
-
-#### Business Goals of site owner ####
- - Increase membership
- - Easy to access schedule
+#### Maze Gym Website's advantages: ####
+- Minimalistic design makes navigation process intuitive
+- Easy to access information like: schedule, and classe packages
 
  ## **Wireframes** ##
 
@@ -28,7 +40,7 @@ Site is easy no navigate, sections visualy separated.
 
 ## **Features** ##
 
-There is 5 key seections on this website:
+There is 5 key sections on this website:
 
  - Home 
  - About

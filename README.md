@@ -95,8 +95,6 @@ On the bottom of footer  there is social media list (icons). They link to Facebo
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
-
-
 ## **Testing** ##
 
 - W3C CSS Validator results | Pass
@@ -107,7 +105,6 @@ On the bottom of footer  there is social media list (icons). They link to Facebo
  - Google Chrome
  - Safari
  - Opera
-
 
 #### Home ####
 
@@ -132,8 +129,6 @@ Carousel with pictures working, tested. Yotube video responsive and working, tes
 #### Footer ####
 
 Social media icons responsive, when pushed opens new tab to the linked page. Working, tested. 
-
-
 
 ## **Deployment** ##
 
@@ -160,7 +155,6 @@ Those steps were taking in order to deploy my page from GitHub repository:
 5. Type **git clone**, paste copied URL.
 6. Press Enter. Your local clone will be created.
 
-
 ## **Credits** ##
 
 - [Bootstrap 4](https://getbootstrap.com/): library used through all project, to make site responsive by using Bootstrap Grid System.
@@ -174,15 +168,7 @@ Those steps were taking in order to deploy my page from GitHub repository:
 - https://www.freeformatter.com/css-beautifier.html
 
 
-A certain amount of the code has been copied from (the Rosie Resumet and the WhiskeyDrop project).
-
-All content was written by myself.
+A certain amount of the code has been copied from (the WhiskeyDrop project(callout-container jumbotron)).
 
 ## **Acknowledgements** ##
 Special Thank You to my mentor Reuben Ferrante for all all help and patience.
-
-
-
-
-    
-

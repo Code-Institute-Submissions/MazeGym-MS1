@@ -95,24 +95,64 @@ On the bottom of footer  there is social media list (icons). They link to Facebo
 
 ## **Testing** ##
 
-W3C Validator used to validate all project | HTML: Pass | CSS: Pass |
+ #### Tested on Browsers ####
+ - Edge
+ - Chrome
+ - Safari
+ - Opera
 
-- Navigation in navbar smooth. Links to sections work.
-- Sign In button works. All form's fields, buttons works.
-- Buttons functions work.
-- Schedule button works, opens new tab with schedule file.
-- Gallery carousel works smoothly.
-- Social media icons when pushed opens new tab.
-- Website tested on Edge, Google Chrome, Safari, Opera.
-- Map responds
+
+#### Home ####
+
+All link buttons tested and working. Sign In button tested and works. Sign In form's fields tested and working. Sign In Close and Sign In buttons work, tested. Find out more button links to the About section, tested.
+
+#### About ####
+
+Classes button in about section works, tested.
+
+#### Classes ####
+
+Sign In button in card working, tested.  Schedule Button working, opens new tab with schedule.pdf, which available to download. Section working and tested.
+
+#### Gallery ####
+
+Carousel with pictures working, tested. Yotube video responsive and working, tested.
+
+#### Google Map ####
+
+ Clickable and responsive, links to Google 
+
+#### Footer ####
+
+Social media icons responsive, when pushed opens new tab to the linked page. Working, tested. 
+
+
 
 ## **Deployment** ##
+
+#### GitHub Pages ####
 
 Those steps were taking in order to deploy my page from GitHub repository:
 1. Log in to GitHub and locate the [ErnestaMajute/MazeGym-MS1](https://github.com/ErnestaMajute/MazeGym-MS1)
 2. Click on _settings_
 3. Under Source section click on dropdown menu and select _Master Branch_ as your GitHub pages publishing source.
 4. Select _save_.
+
+#### Forking GitHub Repository ####
+
+1. Log in to GitHub and locate the [ErnestaMajute/MazeGym-MS1](https://github.com/ErnestaMajute/MazeGym-MS1)
+2. Above the _Settings_ button, push _Fork_.
+3. Then you will have a copy of original repository in your account.
+
+#### Local Clone ####
+
+1. Log in to GitHub and locate the [ErnestaMajute/MazeGym-MS1](https://github.com/ErnestaMajute/MazeGym-MS1)
+2. Click _Code_, and copy "HTTPS" link.
+3. Open Git Bash
+4. Change your current working directory to the location where you want cloned directory to be made.
+5. Type **git clone**, paste copied URL.
+6. Press Enter. Your local clone will be created.
+
 
 ## **Credits** ##
 

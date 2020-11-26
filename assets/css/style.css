@@ -1,277 +1,284 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
-
-
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Lora", sans-serif;
+	font-family: "Lora", sans-serif;
 }
 
 p,
 a {
-    font-family: "OpenSans", sans-serif;
+	font-family: "OpenSans", sans-serif;
 }
 
- /*--------------------------------Navbar*/
+
+/*--------------------------------Navbar*/
+
 body {
-    overflow-x: hidden; 
-    
+	overflow-x: hidden;
 }
+
 .navbar-container {
-    padding-left: 0;
-    padding-right: 0;
-    background-color: black;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: black;
 }
 
 .navbar-brand {
-    font-family: "Lora", sans-serif;
-    font-size: 30px;
-    padding-left: 10px;
-    font-weight: bold;
+	font-family: "Lora", sans-serif;
+	font-size: 30px;
+	padding-left: 10px;
+	font-weight: bold;
 }
+
 
 /*--------------------------------Callout*/
 
 .callout-container {
-    height: 80vh;
-    background: url("../images/bg-callout.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	height: 80vh;
+	background: url("../images/bg-callout.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .jumbotron-header {
-    color:white;
-    font-family: "Lora", sans-serif;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 8px;
+	color: white;
+	font-family: "Lora", sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 8px;
 }
 
 .jumbotron {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .callout-container p {
-    color:#ffffff;
+	color: #ffffff;
 }
+
+
 /*--------------------------------About*/
 
 .about-container {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 .about-container .lead {
-    color: rgb(68 67 67);
-    font-size: 30px;
-    margin-bottom: 30px;
-    font-weight: 500;
+	color: rgb(68 67 67);
+	font-size: 30px;
+	margin-bottom: 30px;
+	font-weight: 500;
 }
 
 .about-container img {
-    border-radius: 5%;
-    margin-bottom: 10px;
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+	border-radius: 5%;
+	margin-bottom: 10px;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
 }
 
 
 /*--------------------------------Classes*/
 
 .classes-container {
-    background-color: #585656;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    width: 100%;
+	background-color: #585656;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
 }
 
 .classes-container h2 {
-    color: white;
-    text-align: center;
-    font-size: 75px;
-    font-weight: 700;
-    padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	font-weight: 700;
+	padding: 0;
 }
 
 .card-deck {
-    margin-bottom: 10px;
-    padding: 0;
+	margin-bottom: 10px;
+	padding: 0;
 }
 
 .card {
-    padding: 0;
-    min-width: 250px;
-    border-radius: 2%;
+	padding: 0;
+	min-width: 250px;
+	border-radius: 2%;
 }
 
 .card-header h4 {
-    font-weight: bold;
+	font-weight: bold;
 }
-
 
 
 /*--------------------------------Gallery*/
 
 .gallery-container {
-    background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/bg-gallery.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    padding-top: 5%;
-    padding-bottom: 5%;
+	background-image: linear-gradient(rgb(0 0 0 / 90%), rgba(0, 0, 0, 0.4)), url(../images/bg-gallery.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
-    
+
 .gallery-container h2 {
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 700;
-    padding-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-size: 5rem;
+	font-weight: 700;
+	padding-bottom: 20px;
 }
 
 .gallery-container iframe {
-    width: 100%;
-    border: 0;
+	width: 100%;
+	border: 0;
 }
 
 div #iframe-div {
-    height: 30em;
+	height: 30em;
 }
+
+
 /*--------------------------------Map*/
 
 .map-container iframe {
-    width: 100%;
-    border: 0;
+	width: 100%;
+	border: 0;
 }
 
 .map-container {
-    line-height: 0;
+	line-height: 0;
 }
+
 
 /*--------------------------------Footer*/
 
-
-
 .footer-container {
-    background-color: black;
-    padding-top: 30px;
+	background-color: black;
+	padding-top: 30px;
 }
 
 .footer-container img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
 }
 
 .hours {
-    font-family: "Lora", sans-serif;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+	font-family: "Lora", sans-serif;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .hours table,
 h5 {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
+
 .contact {
-    font-family: "Lora", sans-serif;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+	font-family: "Lora", sans-serif;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.contact h5, li {
-    font-weight: bold;
+.contact h5,
+li {
+	font-weight: bold;
 }
 
- .contact a i {
-    font-size: 2.0em;
+.contact a i {
+	font-size: 2.0em;
 }
 
 .social-container {
-    background-color: black;
+	background-color: black;
 }
 
 .schedule-container {
-    text-align: center;
+	text-align: center;
 }
 
 .social-list {
-    display: flex;
-    justify-content: center;
-    padding-top: 1.25rem;
+	display: flex;
+	justify-content: center;
+	padding-top: 1.25rem;
 }
 
 .social-list li {
-    margin: 0.5rem;
-    font-size: 2.25rem;
+	margin: 0.5rem;
+	font-size: 2.25rem;
 }
 
 .social-container li a i {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .social-container li a i:hover {
-    color: #8f8f8f;
+	color: #8f8f8f;
 }
+
 
 /*--------------------------------Buttons*/
 
 .btn-darkred {
-    color: white;
-    background-color: #861b3e;
-    border-color: #861b3e;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 140px;
-    font-family: "Lora", sans-serif;
+	color: white;
+	background-color: #861b3e;
+	border-color: #861b3e;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 140px;
+	font-family: "Lora", sans-serif;
 }
 
 .btn-darkred:hover,
 .btn-darkred:active,
 .btn-darkred:focus,
 btn-darkred:active:focus {
-    background-color:#6b1e37;
-    border-color: #6b1e37;
-    color: white;
+	background-color: #6b1e37;
+	border-color: #6b1e37;
+	color: white;
 }
+
 
 /*--------------------------------*/
 
 .display-4 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    line-height: 1.2;
+	font-size: 3.5rem;
+	font-weight: 600;
+	line-height: 1.2;
 }
 
 .center {
-    margin-left: auto; 
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 /*--------------------------------Media*/
 
 @media (max-width: 768px) {
-    .card {
-        min-width: 220px;
-        margin-bottom: 20px;
-    }
+	.card {
+		min-width: 220px;
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 576px) {
-    .navbar-container nav img {
-        width: 190px;
-        height: 45px;
-    }
+	.navbar-container nav img {
+		width: 190px;
+		height: 45px;
+	}
 }

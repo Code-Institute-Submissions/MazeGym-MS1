@@ -36,7 +36,8 @@ Site is easy no navigate, sections visualy separated.
 
  ## **Wireframes** ##
 
- [Wireframes: desktop, tablet, mobile](https://github.com/ErnestaMajute/MazeGym-MS1/tree/master/wireframes)
+ - [Wireframes: desktop, tablet, mobile](https://github.com/ErnestaMajute/MazeGym-MS1/tree/master/wireframes)
+ - [Screenshots: desktop, tablet, mobile](https://github.com/ErnestaMajute/MazeGym-MS1/tree/master/wireframes/screenshots)
 
 ## **Features** ##
 
@@ -93,11 +94,15 @@ On the bottom of footer  there is social media list (icons). They link to Facebo
 - [Google Fonts](https://fonts.google.com/)
 
 
+
 ## **Testing** ##
 
+- W3C CSS Validator results | Pass
+- W3C HTML Validator results | Pass
+
  #### Tested on Browsers ####
- - Edge
- - Chrome
+ - Microsoft Edge
+ - Google Chrome
  - Safari
  - Opera
 
@@ -108,7 +113,7 @@ All link buttons tested and working. Sign In button tested and works. Sign In fo
 
 #### About ####
 
-Classes button in about section works, tested.
+Classes button in _about_ section works, tested.
 
 #### Classes ####
 
@@ -120,7 +125,7 @@ Carousel with pictures working, tested. Yotube video responsive and working, tes
 
 #### Google Map ####
 
- Clickable and responsive, links to Google 
+ Clickable and responsive, links to Google, working, tested.
 
 #### Footer ####
 
@@ -163,9 +168,11 @@ Those steps were taking in order to deploy my page from GitHub repository:
 - [Schedule.pdf](https://www.printablee.com/) template
 - [Logo](https://www.namecheap.com/)
 - [Video](https://www.youtube.com)
+- https://www.freeformatter.com/html-formatter.html
+- https://www.freeformatter.com/css-beautifier.html
 
 
-A certain amount of the code has been copied from ( the Rosie Resumet and the WhiskeyDrop project).
+A certain amount of the code has been copied from (the Rosie Resumet and the WhiskeyDrop project).
 
 All content was written by myself.
 

@@ -50,23 +50,24 @@ There is 5 key sections on this website:
 
 _Home_
 
-Background picture shows strong and confident person, it motivates people. Home page includes website logo in navigation bar. Sign In form easy to find in Navigation Bar. New member able to Sign In and get first class for free. There is links to about, classes and gallery sections. 
+Home section contains hero image, navbar, jumbotron and button. Navbar contains Maze Gym logo, about, classes and gallery links. When link pushed it scrolls down to the exact section. Sign In button contains modal with Sign In form. Home section contains jumbotron with welcome message. Has Find Out More button, which links to About section.
 
 _About_
 
-About section describes gym, has three pictures and button which link to classes section.
+About section describes gym and it's community, has three pictures and button which links to classes section.
 
 _Classes_
 
-Classes section explains prices and other details of membership. Schedule added for visitors and members to check times.
+Classes section contains card deck and button which link to schedule's PDF file. Schedule file provides time and day on a specific class. Card's contains membership name, price, description and BUY button.
 
 _Gallery_
 
-In gallery section firt Time Visitors and member could see pictures and motivational video.
+In gallery section first Time Visitors and member could see pictures in carousel and motivational video.
 
 _Location and contact information_
 
-Added map to see gym's location. As well added opening times, address, email, and phone number. on the bottom social links to gym's social media.
+Added Google map to see gym's location. Footer contains Gym's logo, working hours and contact details (phone number, email and address).
+On the bottom of footer  there is social media list (icons). They link to Facebook, Twitter, Instagram and Youtube. 
 
 ## **Design** ##
 

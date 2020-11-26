@@ -3,7 +3,9 @@
 # **MazeGym Website**
 
 
-[View the live project here.](https://ernestamajute.github.io/MazeGym-MS1/)
+[View the live project here](https://ernestamajute.github.io/MazeGym-MS1/)
+
+[Repository](https://github.com/ErnestaMajute/MazeGym-MS1)
 
 This is the marketing website for Maze Gym. It is designed for all range of devices. Created for members and potential customers. Website features are home page, about, classes, gallery sections and footer with opening hours ant contact info. Website's goal is to provide information for potential customers and current members. 
 Site is easy no navigate, sections visualy separated.
